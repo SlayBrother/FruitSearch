@@ -18,7 +18,7 @@ inputSection.addEventListener('input',search)
 
 function showSuggestions(results) {
 	const fruitListLetters = results.map((liMapping)=> {
-		return "<li onclick = showSuggestions(this)>" + liMapping + "</li>"
+		return "<li onclick = useSuggestion(this)>" + liMapping + "</li>"
 	})
 	suggestions.innerHTML = "<ul>" + fruitListLetters.join('') + "</ul> "
 }

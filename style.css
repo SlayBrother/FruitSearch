@@ -1,24 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
 }
 
-/* :focus {
-
-} */
-
 body {
-background: #262a2f;
+background-image:linear-gradient(to right,yellow,red);
 color: #333;
 }
 
 .search-container {
   width: 600px;
-  background: #fff;
-  margin: 200px auto 0;
-  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 350px auto 0;
+  border-radius: 1px;
+  border:1px solid red;
  }
 
 .search-row{
@@ -29,28 +25,16 @@ color: #333;
 
 input {
  flex: 1;
- height: 50px;
+ height: 40px;
  background: transparent;
  border: 0;
  outline: 0;
  font-size: 18px;
- color: #333;
+ color: black;
 }
-
-
-/* .search-container input,
-.search-container .suggestions {
-
-}
-.search-container input {
-
-}
-.search-container .suggestions {
- 
-} */
 
 ::placeholder{
-  color: darkgray;
+  color: darkslategray;
 }
 
 .suggestions ul {
